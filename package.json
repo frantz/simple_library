@@ -1,0 +1,28 @@
+{
+  "name": "simple_library",
+  "version": "1.0.0",
+  "description": "small system for managing a personal library",
+  "preferGlobal": true,
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "bin": {
+    "library": "index.js"
+  },
+  "scripts": {
+    "pre-test": "standard",
+    "test": "tape test/**/*_test.js"
+  },
+  "keywords": [
+    "library",
+    "books",
+    "exercise"
+  ],
+  "author": "Frantz Gauthier <frantz@myentropy.org>",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
+  }
+}
